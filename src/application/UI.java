@@ -80,6 +80,14 @@ public class UI {
 		
 		System.out.println("Esperando jogador: " + chessMatch.getCurrentPlayer());
 		
+		if(chessMatch.getCheck()) {
+			
+			System.out.println("Voce esta em cheque");
+			
+		}
+		
+		
+		
 	}
 		
 	
